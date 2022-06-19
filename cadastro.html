@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre aqui</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      
+    <form method="post" action="enviar.php">
+        <h3>Coloque Uma sugestão e insira seu nome abaixo para ajudar a pagina.</h3>
+        <label for="name"></label>
+        <p>Coloque seu nome aqui!<input type="text" id="name" placeholder="Digite seu nome" required></p>
+        <div class="sugestao">
+            <label for="sugestao"></label>
+            <p> Deixe sua sugestão por gentileza! <input type="text" id="sugestao" placeholder="Digite a sua sugestão"
+                    required> </p>
+        </div>
+        <br>
+        <input required type="submit" size="40" maxlength="50" name="enviar">
+    </form>
+    <a class="ref" href="projeto.html"><i class="fa-solid fa-chevron-left"></i> Clique aqui para voltar a pagina</a>
+</body>
+</html>
